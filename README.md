@@ -56,3 +56,4 @@ Installing "cordova-plugin-device" for electron
 * Prepare output from the step above shows that the platforms and plugins are discovered and being added to the project
 * All plugins and platforms are stored in `package.json` as `devDependencies`
 * Running `cordova build electron` does not readd packages to `dependencies`
+* Plugin `cordova-plugin-whitelist` which is default to `config.xml` can be removed once it is in `package.json`
